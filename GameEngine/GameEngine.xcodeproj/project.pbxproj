@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C702A9392309EA050059046B /* GameEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = C702A9382309EA050059046B /* GameEngine.h */; };
 		C702A93D2309ECBF0059046B /* EntryPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = C702A93C2309ECBF0059046B /* EntryPoint.h */; };
+		C702A9402309F8C70059046B /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C702A93E2309F8C70059046B /* Log.cpp */; };
+		C702A9412309F8C70059046B /* Log.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C702A93F2309F8C70059046B /* Log.hpp */; };
 		C78776C92309E661001C9B91 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = C78776C82309E661001C9B91 /* core.h */; };
 		C78776CC2309E686001C9B91 /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C78776CA2309E686001C9B91 /* Application.cpp */; };
 		C78776CD2309E686001C9B91 /* Application.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C78776CB2309E686001C9B91 /* Application.hpp */; };
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		C702A9382309EA050059046B /* GameEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameEngine.h; sourceTree = "<group>"; };
 		C702A93C2309ECBF0059046B /* EntryPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryPoint.h; sourceTree = "<group>"; };
+		C702A93E2309F8C70059046B /* Log.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		C702A93F2309F8C70059046B /* Log.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Log.hpp; sourceTree = "<group>"; };
 		C751D19223099A260050442E /* libgameEngineLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libgameEngineLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77DECCF2307167F00EC63AD /* GameEngine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameEngine; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78776C82309E661001C9B91 /* core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				C78776CB2309E686001C9B91 /* Application.hpp */,
 				C78776C82309E661001C9B91 /* core.h */,
 				C702A93C2309ECBF0059046B /* EntryPoint.h */,
+				C702A93E2309F8C70059046B /* Log.cpp */,
+				C702A93F2309F8C70059046B /* Log.hpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -107,6 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C78776C92309E661001C9B91 /* core.h in Headers */,
+				C702A9412309F8C70059046B /* Log.hpp in Headers */,
 				C702A9392309EA050059046B /* GameEngine.h in Headers */,
 				C702A93D2309ECBF0059046B /* EntryPoint.h in Headers */,
 				C78776CD2309E686001C9B91 /* Application.hpp in Headers */,
@@ -190,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C702A9402309F8C70059046B /* Log.cpp in Sources */,
 				C78776CC2309E686001C9B91 /* Application.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +222,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = /Users/michaliskaseris/Documents/GameEngine/GameEngine/vendor/spdlog/include;
 				INSTALL_PATH = /Users/michaliskaseris/Documents/GameEngine/GameEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -230,6 +239,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = /Users/michaliskaseris/Documents/GameEngine/GameEngine/vendor/spdlog/include;
 				INSTALL_PATH = /Users/michaliskaseris/Documents/GameEngine/GameEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

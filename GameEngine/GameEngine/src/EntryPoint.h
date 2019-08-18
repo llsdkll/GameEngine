@@ -15,6 +15,11 @@ extern Newb::Application* Newb::createApplication();
 
 int main(int argc, char** argv)
 {
+    Newb::Log::init();
+    NEWB_CORE_WARN("Initialised logger");
+    int a = 3;
+    NEWB_CLIENT_INFO("Hello, Var = {0}", a);
+    
     printf( "GameEngine started\n" );
     auto app = Newb::createApplication();
     app->run();

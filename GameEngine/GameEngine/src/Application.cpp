@@ -7,7 +7,6 @@
 //
 
 #include "Application.hpp"
-
 namespace Newb
 {
     Application::Application()

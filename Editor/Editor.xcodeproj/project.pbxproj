@@ -263,6 +263,7 @@
 				HEADER_SEARCH_PATHS = (
 					/Users/michaliskaseris/Documents/GameEngine/GameEngine,
 					/Users/michaliskaseris/Documents/GameEngine/GameEngine/GameEngine,
+					/Users/michaliskaseris/Documents/GameEngine/GameEngine/vendor/spdlog/include,
 				);
 				LIBRARY_SEARCH_PATHS = /Users/michaliskaseris/Documents/GameEngine/GameEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +277,7 @@
 				HEADER_SEARCH_PATHS = (
 					/Users/michaliskaseris/Documents/GameEngine/GameEngine,
 					/Users/michaliskaseris/Documents/GameEngine/GameEngine/GameEngine,
+					/Users/michaliskaseris/Documents/GameEngine/GameEngine/vendor/spdlog/include,
 				);
 				LIBRARY_SEARCH_PATHS = /Users/michaliskaseris/Documents/GameEngine/GameEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";

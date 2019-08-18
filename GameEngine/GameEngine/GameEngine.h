@@ -11,6 +11,7 @@
 
 #include "src/Application.hpp"
 #include "src/core.h"
+#include "src/Log.hpp"
 #include <stdio.h>
 
 #include "src/EntryPoint.h"
