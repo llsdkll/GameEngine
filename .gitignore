@@ -1,7 +1,8 @@
 # Directories
 .DS_Store
 DerivedData/
+*.xcworkspace/
+*.xcodeproj/
+*/*.xcodeproj/
 
 # Files
-*.xcworkspace
-*.xcodeproj
