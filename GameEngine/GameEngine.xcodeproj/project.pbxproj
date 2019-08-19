@@ -61,7 +61,6 @@
 		C77DECC62307167F00EC63AD = {
 			isa = PBXGroup;
 			children = (
-				C78776C62309E637001C9B91 /* New Group */,
 				C77DECD12307167F00EC63AD /* GameEngine */,
 				C77DECD02307167F00EC63AD /* Products */,
 			);
@@ -83,13 +82,6 @@
 				C702A9382309EA050059046B /* GameEngine.h */,
 			);
 			path = GameEngine;
-			sourceTree = "<group>";
-		};
-		C78776C62309E637001C9B91 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		C78776C72309E644001C9B91 /* src */ = {
